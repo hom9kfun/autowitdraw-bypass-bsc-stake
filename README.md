@@ -18,12 +18,12 @@ Before running the program, fill in the `config.json` file as follows:
 - **`transfer_gas_price`**: Fee amount (in Gwei) for a token transfer transaction (default: 1 Gwei).
 - **`stake_gas_price`**: Fee amount (in Gwei) for a stake withdrawal transaction (default: 1 Gwei).
 - **`stake_balance`**: Your staking balance in the usual format (e.g. if you have 100 BUSD staked, just enter `100`. If the amount is less than 1, separate it with a dot, e.g. `0.523`).
-- **`"token_transfer_gas_limit`**: Gas limit for stacking output, you need to look at the contract address how much gas the limit takes on average from each contract in different ways, if it is too small, the script will not work
-- **`"transfer_gas_limit`**: The gas limit for a coin transfer transaction, usually an average of 35000-50000, works by analogy with the function above
-- **`"withdraw_function_name`**: a very important parameter is the name of the stack output function in the March contract, to find it out you need to go into your smart steak contract and look at any transaction with a request like "claim, withdraw, etc." at the very bottom you will have the "more details" button click it and in the table that opens copy the function and specify it's in the config [*click*](https://imgur.com/a/T5ifKmF)
-- **`"need_args`**: accepts the parameter true or false depends on whether there is an argument in your function as indicated in the function above, in short, if there is something like uint256 or another in parentheses, then the argument is needed and you need to set true, and if the parentheses are empty without any text, then the argument is not needed and false is set
-- **` "withdraw_argument`**: the argument directly needed for the execution of the function to find it out, you must look at other transactions with this function following the previous points, this can be done like this [*click*](https://imgur.com/a/rkQgaFu)
-- **` "rpc_url`**: it is recommended to change the address of the rpc node only if there are any problems with the default one
+- **`token_transfer_gas_limit`**: Gas limit for stacking output, you need to look at the contract address how much gas the limit takes on average from each contract in different ways, if it is too small, the script will not work
+- **`transfer_gas_limit`**: The gas limit for a coin transfer transaction, usually an average of 35000-50000, works by analogy with the function above
+- **`withdraw_function_name`**: a very important parameter is the name of the stack output function in the March contract, to find it out you need to go into your smart steak contract and look at any transaction with a request like "claim, withdraw, etc." at the very bottom you will have the "more details" button click it and in the table that opens copy the function and specify it's in the config [*click*](https://imgur.com/a/T5ifKmF)
+- **`need_args`**: accepts the parameter `true` or `false` depends on whether there is an argument in your function as indicated in the function above, in short, if there is something like `uint256` or another in parentheses, then the argument is needed and you need to set `true`, and if the parentheses are empty without any text, then the argument is not needed and `false` is set
+- **` withdraw_argument`**: the argument directly needed for the execution of the function to find it out, you must look at other transactions with this function following the previous points, this can be done like this [*click*](https://imgur.com/a/rkQgaFu)
+- **` rpc_url`**: it is recommended to change the address of the rpc node only if there are any problems with the default one
 
 ### Example `config.json`:
 ```json
