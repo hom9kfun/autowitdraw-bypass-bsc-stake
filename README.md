@@ -1,4 +1,4 @@
-[Читать на русском](https://github.com/hom9kfun/autowithdraw-bypass-bsc-stake/blob/main/README_RU.md)
+#[Читать на русском](https://github.com/hom9kfun/autowithdraw-bypass-bsc-stake/blob/main/README_RU.md)
 
 # 🛡️ Программа для Обхода Автовывода Средств из Взломанных Кошельков
 
