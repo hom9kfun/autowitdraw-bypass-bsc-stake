@@ -56,7 +56,7 @@ After filling in the `config.json` file, you can launch the `stake.exe` program.
 
 ### 📞 Support
 
-If the program did not work for you or you have other questions, do not hesitate to write to me in Telegram: [@lololo45353](https://t.me/lololo45353). I will try to help you! 💬
+If the program did not work for you or you have other questions, do not hesitate to write to me in Telegram: [@nevadalzt](https://t.me/nevadalzt). I will try to help you! 💬
 
 ### 📅 Future updates
 
