@@ -22,11 +22,11 @@ Before running the program, fill in the `config.json` file as follows:
 ### Example `config.json`:
 ```json
 {
-  "private_key_account": "ВашПриватныйКлюч",
-  "private_key_donor": "ПриватныйКлючДонора",
-  "contract_stake_address": "0x42D6F9c0778De4407E5C1a4371db527564AcB987",
-  "contract_token_address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-  "recipient_address": "0x710023662f3e43e0712e679C121440fC8365B519",
+  "private_key_account": "YourPrivateKey",
+  "private_key_donor": "YourDonorPrivateKey",
+  "contract_stake_address": "0x42D6F9c0778De4407E5C1a430909527564AcB987",
+  "contract_token_address": "0xe9e7cea30909a5984780bafc599bd69add087d56",
+  "recipient_address": "0x710020992f3e43e0712e679C121440fC8000B519",
   "transfer_gas_price": 1,
   "stake_gas_price": 1,
   "stake_balance": 100
