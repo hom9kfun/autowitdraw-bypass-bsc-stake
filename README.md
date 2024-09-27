@@ -65,4 +65,4 @@ If the program did not work for you or you have other questions, do not hesitate
 
 ### ⚠️ Important
 
-Use the program at your own risk. Automation of cryptocurrency transactions always carries the risk of losing funds. 🔥
+The program is intended only for personal wallets to help with the withdrawal of their funds! I am not responsible for theft or anything else committed by my program 🔥
