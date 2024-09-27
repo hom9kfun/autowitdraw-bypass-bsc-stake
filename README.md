@@ -58,6 +58,8 @@ After filling in the `config.json` file, you can launch the `stake.exe` program.
 
 If the program did not work for you or you have other questions, do not hesitate to write to me in Telegram: [@nevadalzt](https://t.me/nevadalzt). I will try to help you! 💬
 
+or here: [lolz](https://lolz.live/resonancee/)
+
 ### 📅 Future updates
 
 - In the near future, I plan to release programs to bypass the automatic withdrawal of **NFT** and regular tokens. 🎉
