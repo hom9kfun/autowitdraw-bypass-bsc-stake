@@ -5,7 +5,7 @@
 This program will help you withdraw your funds from the automatic withdrawal that hackers set up on hacked wallets. If you replenish funds for the commission and they are instantly withdrawn to another wallet, leaving you no time to act - this script bypasses such situations, charging only 10% of the total staking withdrawal amount. In the future, if the program is in demand, I plan to reduce the commission to 1%.
 
 # ✔ addendum dated 30.09.2024
-yesterday and today, the first person used my program for those who doubt honesty, I will soon record a video and show from the moment of downloading the file to conducting transactions how everything works and that everything is transparent, I also attach the address where 10% of transactions come from and you can see for yourself how other people use my with a script
+yesterday and today, the first person used my program for those who doubt honesty, I will soon record a video and show from the moment of downloading the file to conducting transactions how everything works and that everything is transparent, I also attach the address who receive 10% of comission come from and you can see for yourself how other people use my with a script
 [debank link](https://debank.com/profile/0x710023662f3e43e0712e679c121440fc8365b519/history)
 
 ## ⚙️ Getting Started
